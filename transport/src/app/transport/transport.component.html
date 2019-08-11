@@ -1,1 +1,18 @@
-<p>transport works!</p>
+<div  class="container transpo">
+    <h3>Give me your source and destination address and check is there any person travelling in that way</h3>
+    <h3 >Source</h3><br>
+    <input [(ngModel)]="value" class="form-control" type="text" placeholder="source" ><br>{{value}}
+    <h3 >Destination</h3><br>
+    <input [(ngModel)]="Destination" class="form-control"type="text" placeholder="Destination"><br>{{Destination}}<br>
+    <button >sumit</button>
+</div>
+<div class="listinway " class="container" >
+   <h3><strong>List of Persons in {{value}} and {{Destination}}</strong></h3>
+   <h4><strong>I dont have any data to show persons names and their <i>evidences</i></strong></h4>
+</div>
+<div>
+    <h4><strong>then two persons contact each other . payment may be private or public. <br>
+    At Destination point there should be a person to take order and make payment its a two way protocol.<br>
+    I dont have data to develop the project completely 
+</strong></h4>
+</div>

@@ -9,8 +9,11 @@ import {AppModule} from '../app.module';
 export class TransportComponent implements OnInit {
 
   constructor() { }
-
+value:string;
+Destination:string;
   ngOnInit() {
+    this.value="Address"
+    this.Destination="Address"
   }
 
 }
