@@ -1,3 +1,22 @@
-<p>
-  evidences works!
-</p>
+<div class="container" >
+  <form >
+    <div class="form-group">
+    <label>FirstName:</label><br>
+    <input type="text" class="form-control"  required><br>
+    <label>LastName:</label><br>
+    <input type="text" class="form-control"  ><br>
+    <label>Gender</label><br>
+    <input type="radio" name='gender' class="form-control">Male
+    <input type="radio" name="gender" class="form-control">Female<br>
+    <label>Adhar Number:</label><br>
+    <input #adhar type="number" class="form-control"  required><br>
+    <label>Driving licence:</label><br>
+    <input type="number" class="form-control"  ><br>
+    <label>vehicle Number:</label><br>
+    <input type="text" class="form-control"  required><br>
+    </div>
+  </form>
+  <br><br><br>
+  &nbsp;
+  <button (click)="submit()" >submit</button>
+</div>

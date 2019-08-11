@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {routingComponents} from '../../app-routing.module';
+import {Form}from '@angular/forms';
+import { routerNgProbeToken } from '@angular/router/src/router_module';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-evidences',
@@ -11,5 +15,8 @@ export class EvidencesComponent implements OnInit {
 
   ngOnInit() {
   }
+  submit(){
+    return 
 
+}
 }
