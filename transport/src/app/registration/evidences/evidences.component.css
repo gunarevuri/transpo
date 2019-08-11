@@ -2,3 +2,8 @@
     padding-left: 23%;
     padding-top: 10vh;
 }
+:host{
+    display: flex;
+    flex-direction: column;
+
+}
