@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FlexLayoutModule} from '@angular/flex-layout';
-import {AppModule} from '../../app.module'
+import {AppModule} from '../../app.module';
+import {MatInputModule ,MatAutocomplete} from '@angular/material';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-home',

@@ -11,5 +11,8 @@ export class HomeTransporterComponent implements OnInit {
 
   ngOnInit() {
   }
+  userdetails:object={
+    
+  }
 
 }

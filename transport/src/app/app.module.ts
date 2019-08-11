@@ -8,6 +8,8 @@ import {FormsModule} from '@angular/forms';
 import { HomeTransporterComponent } from './home/home-transporter/home-transporter.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { AgmCoreModule } from '@agm/core';
+import {MatInputModule} from '@angular/material';
+import { TransportComponent } from './transport/transport.component'
 
 
 
@@ -19,12 +21,14 @@ import { AgmCoreModule } from '@agm/core';
     RegistrationComponent,
     routingComponents,
     HomeTransporterComponent,
+    TransportComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     FlexLayoutModule,
+    MatInputModule,
     AgmCoreModule.forRoot({
       apiKey:"key"
     })

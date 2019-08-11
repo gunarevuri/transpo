@@ -1,6 +1,6 @@
 :host{
     display: flex;
-    direction: column;
+    direction: row;
 }
 html,body{
     padding:0px;
@@ -17,4 +17,7 @@ html,body{
 }
 .home-column{
     background-color: skyblue;
+}
+.mapdisc{
+    background-color: white;
 }

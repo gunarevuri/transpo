@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home/home.component';
 import { HomeUserComponent } from './home/home-user/home-user.component';
 import { EvidencesComponent } from './registration/evidences/evidences.component';
 import { HomeTransporterComponent } from './home/home-transporter/home-transporter.component';
+import { TransportComponent } from './transport/transport.component';
 
 const routes: Routes = [
   { path: 'home',component:HomeComponent,
@@ -14,7 +15,8 @@ const routes: Routes = [
   ]},
   
   { path: 'evidences',component:EvidencesComponent},
-  { path: '',component:RegistrationComponent}
+  { path: '',component:RegistrationComponent},
+  { path:'transport',component:TransportComponent}
 ];
 
 @NgModule({

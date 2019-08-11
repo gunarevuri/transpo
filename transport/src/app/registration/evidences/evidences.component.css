@@ -7,3 +7,6 @@
     flex-direction: column;
 
 }
+.blink :hover{
+    background-color: aqua;
+}
