@@ -13,7 +13,14 @@ import { Router } from '@angular/router';
 export class EvidencesComponent implements OnInit {
 
   constructor() { }
+  vehicleNumber:any;
+  adharNumber:number;
+  licenceNumber:number;
+
 
   ngOnInit() {
+    this.vehicleNumber=233;
+    this.adharNumber=504728743150;
+    this.licenceNumber=983798375;
   }
 }
